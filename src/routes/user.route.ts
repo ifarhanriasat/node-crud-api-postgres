@@ -16,8 +16,8 @@ UserRouter.post("/add", AuthMiddleware, validateMiddleware, async (req: Request,
     })      
 })
 
-UserRouter.get("/findAll", AuthMiddleware, async (req: Request, res: Response) => {
-    await UserService.getAllUsers()
+UserRouter.get("/findAll/:numberOfUsers", AuthMiddleware, async (req: Request, res: Response) => {
+    await UserService.getAllUsers(Number(req.params.numberOfUsers))
     .then((data)=>{
         res.status(200).json({status: "success", data: data});
     })

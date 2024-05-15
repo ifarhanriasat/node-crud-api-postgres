@@ -7,8 +7,8 @@ export default class UserRepo {
         return AppDataSource.getRepository(UserEntity).save(user);
     }
 
-    public static getAllUsers() {
-        return AppDataSource.getRepository(UserEntity).find();
+    public static getAllUsers(numberOfUsers: number) {
+        return AppDataSource.getRepository(UserEntity).find({take:numberOfUsers});
     }
 
     public static findUserById(id: number) {

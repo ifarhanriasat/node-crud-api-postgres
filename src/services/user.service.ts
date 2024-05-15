@@ -17,9 +17,9 @@ export default class UserService {
     }
 
     // find all user
-    public static async getAllUsers() {
+    public static async getAllUsers(numberOfUsers: number) {
         try {
-            let data: UserResponse[] = (await UserRepo.getAllUsers()).map((user) => {
+            let data: UserResponse[] = (await UserRepo.getAllUsers(numberOfUsers)).map((user) => {
                 return UserMapper.entityToResponseMapper(user);
             })
             return data;

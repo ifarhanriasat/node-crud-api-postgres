@@ -61,11 +61,11 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZhcmhhbnF3ZXJ0eUBnbWFpbC5jb20iLCJpYXQiOjE3MTU3NzAzODMsImV4cCI6MTcxNTc3Mzk4M30.pgpEJVqhWzekejM5dPOHwopv5qMqcAilG4lWugFYpK4",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZhcmhhbnF3ZXJxd3R5QGdtYWlsLmNvbSIsImlhdCI6MTcxNTc3NjcxNywiZXhwIjoxNzE1NzgwMzE3fQ.LNZzVT4MhtLXgU0Xost-aoVWdR6qsbxrJK573zzy-Bo",
 						"type": "default"
 					}
 				],
-				"url": "localhost:3000/accounts/findAll"
+				"url": "localhost:3000/accounts/findAll/2"
 			},
 			"response": []
 		},
