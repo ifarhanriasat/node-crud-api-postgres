@@ -1,8 +1,12 @@
 # node-crud-api
+<br>
+<br>
 
 # Tech:
 <br>
 <b> NodeJS, ExpressJS, Typescript, Postgres, TypeORM, Firebase, NodeMailer<b> 
+<br>
+<br>
 
 # How to run:
 <br>
