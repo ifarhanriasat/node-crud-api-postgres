@@ -29,7 +29,7 @@
 <br>
 <h3>9 - keep the token in header of every request - try rest of the APIs
 <br>
-<<h3>10 - to send email on every registration - put your credential in "src/utils/email.utils.ts" file.
+<h3>10 - To send email on every registration - put your credential in "src/utils/email.utils.ts" file.
 <br>
 <br>
 <br>
